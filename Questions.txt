@@ -1,0 +1,35 @@
+1.)input & print
+
+2.)sum of matrix
+3.)avg of matrix
+
+4.)sum of each row
+5.)sum of each column
+6.)sum of both diagonals
+
+7.)max of matrix
+8.)min of matrix
+
+9.)max of each row
+10.)max of each column
+
+11.)min of each row
+12.)min of each column
+
+13.)maximum sum row in matrix
+14.)minimum sum row in matrix
+
+15.)matrix addition
+16.)matrix subtraction
+17.)matrix multiplication
+
+18.)transpose matrix 
+19.)transpose matrix in place
+20.)symmetric matrix
+21.)identity matrix
+
+22.)rotate 90 degree clockwise(n x n)
+23.)rotate 90 degree anti-clockwise(n x n)
+
+24.)rotate 90 degree clockwise(m x n)
+25.)rotate 90 degree anti-clockwise(m x n)
