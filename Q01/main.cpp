@@ -21,26 +21,3 @@ int main(){
     }
     return 0;
 }
-
-/*
-
-1234
-
-n/10
-n%10
-
-Syntax:
-
-    for(intialization;condition;increment/decrement){
-        statement-block;
-    }
-
-    while(condition){
-        statement-block;
-    }
-
-    do{
-        statement-block;
-    }while(condition);
-
-*/
