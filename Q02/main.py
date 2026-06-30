@@ -5,9 +5,9 @@ arr=[]
 sum=0
 
 for i in range(row):
-    arr.append(list(map(int,input().split()))[:row])
+    arr.append(list(map(int,input().split()))[:col])
 
 for i in range(row):
     for j in range(col):
-        sum+=arr[i]
-    print()
+        sum+=arr[i][j]
+print(sum)
