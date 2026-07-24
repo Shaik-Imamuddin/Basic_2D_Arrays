@@ -2,10 +2,8 @@
 using namespace std;
 
 int main(){
-
     int row,col;
     cin>>row>>col;
-    
     int arr[row][col];
 
     for(int i=0;i<row;i++){
