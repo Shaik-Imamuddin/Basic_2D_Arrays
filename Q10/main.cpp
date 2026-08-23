@@ -1,15 +1,18 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
+
 int main(){
     int row,col;
-    scanf("%d%d",&row,&col);
+    cin>>row>>col;
 
     int arr[row][col];
 
     for(int i=0;i<row;i++){
         for(int j=0;j<col;j++){
-            scanf("%d",&arr[i][j]);
+            cin>>arr[i][j];
         }
     }
+
     for(int i=0;i<col;i++){
         int max = arr[0][i];
         for(int j=0;j<row;j++){
@@ -17,7 +20,7 @@ int main(){
                 max = arr[j][i];
             }
         }
-        printf("%d\n",max);
+        cout<<max<<" ";
     }
     return 0;
 }
