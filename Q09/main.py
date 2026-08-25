@@ -5,7 +5,6 @@ arr=[]
 for i in range(row):
     arr.append(list(map(int,input().split()))[:col])
 
-
 for i in range(row):
     max = arr[i][0]
     for j in range(col):
